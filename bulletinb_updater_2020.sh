@@ -12,7 +12,7 @@ $TEMPO/util/ut1/do.iers.ut1.new bulletinb.* > nohead_ut1.dat
 
 #add a header 
 #Somehow fortran need this header which I just copy from an old ut1.dat file 
-cat header nohead_ut1.dat > u1.dat 
+cat ../header nohead_ut1.dat > ut1.dat 
 
-
+cp ut1.dat ../
 #Move u1.dat to $TEMPO/clock 
